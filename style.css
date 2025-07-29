@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.title h1 {
+    margin: 30px;
+}
+
+.recipes {
+    text-align: center;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.recipes li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
 }
