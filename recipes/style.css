@@ -25,6 +25,7 @@ body {
 .header a {
     display: block;
     margin-top: 10px;
+    padding-top: 8px;
 
     font-size: 15px;
 }
